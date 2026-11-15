@@ -1,0 +1,9 @@
+{
+  "resumes": [
+    "Alice Nguyen\nalice.nguyen@example.com\n5 years experience building Python REST APIs on AWS with Docker and PostgreSQL. Bachelors in CS.",
+    "Bob Patel\nbob.patel@example.com\n2 years experience with Python and Flask. Masters in Software Engineering. Familiar with SQL.",
+    "Carol Diaz\ncarol.diaz@example.com\n7 years experience. Led Kubernetes migration on GCP. Python, Docker, SQL, REST. PhD in Distributed Systems.",
+    "Dan Wu\ndan.wu@example.com\nBackend developer with Python and SQL. Bachelors in IT.",
+    "Eve Okafor\neve.okafor@example.com\n3 years experience with Java and Spring Boot. Bachelors in CS. No Python or cloud experience."
+  ]
+}

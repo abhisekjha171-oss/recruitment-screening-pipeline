@@ -1,0 +1,72 @@
+[2026-10-29T11:35:18] [PipelineCoordinator] pipeline start: 5 candidates, shortlist=3, bias_reviewer=True
+[2026-10-29T11:35:18] [ParserAgent] parsed C001: 6 skills, 5.0y, Bachelors
+[2026-10-29T11:35:18] [ParserAgent] parsed C002: 3 skills, 2.0y, Masters
+[2026-10-29T11:35:18] [ParserAgent] parsed C003: 6 skills, 7.0y, PhD
+[2026-10-29T11:35:18] [ParserAgent] parsed C004: 2 skills, 0.0y, Bachelors
+[2026-10-29T11:35:18] [ParserAgent] parsed C005: 2 skills, 3.0y, Bachelors
+[2026-10-29T11:35:18] [MatcherAgent] C001 matched 5/5 named reqs -> score 1.0
+[2026-10-29T11:35:18] [MatcherAgent] C002 matched 2/5 named reqs -> score 0.54
+[2026-10-29T11:35:18] [MatcherAgent] C003 matched 4/5 named reqs -> score 0.88
+[2026-10-29T11:35:18] [MatcherAgent] C004 matched 2/5 named reqs -> score 0.34
+[2026-10-29T11:35:18] [MatcherAgent] C005 matched 1/5 named reqs -> score 0.52
+[2026-10-29T11:35:18] [RankerAgent] rank 1: C001 (score 1.0) - meets 5/5 requirements (aws, docker, python); 5.0y exp meets minimum
+[2026-10-29T11:35:18] [RankerAgent] rank 2: C003 (score 0.88) - meets 4/5 requirements (docker, python, rest); lacks aws; 7.0y exp meets minimum
+[2026-10-29T11:35:18] [RankerAgent] rank 3: C002 (score 0.54) - meets 2/5 requirements (python, sql); lacks aws, docker, rest; 2.0y exp below minimum
+[2026-10-29T11:35:18] [RankerAgent] rank 4: C005 (score 0.52) - meets 1/5 requirements (python); lacks aws, docker, rest; 3.0y exp meets minimum
+[2026-10-29T11:35:18] [RankerAgent] rank 5: C004 (score 0.34) - meets 2/5 requirements (python, sql); lacks aws, docker, rest; 0.0y exp below minimum
+[2026-10-29T11:35:18] [SchedulerAgent] C001 -> slot Mon 10:00
+[2026-10-29T11:35:18] [SchedulerAgent] C003 -> slot Wed 14:00
+[2026-10-29T11:35:18] [SchedulerAgent] C002 -> slot Tue 11:00
+[2026-10-29T11:35:18] [SchedulerAgent] C005 not shortlisted (rank 4)
+[2026-10-29T11:35:18] [SchedulerAgent] C004 not shortlisted (rank 5)
+[2026-10-29T11:35:18] [BiasReviewerAgent] ranking is score-consistent
+[2026-10-29T11:35:18] [BiasReviewerAgent] review complete: 0 bias flag(s)
+[2026-10-29T11:35:18] [PipelineCoordinator] pipeline complete
+[2026-10-29T16:01:58] [PipelineCoordinator] pipeline start: 5 candidates, shortlist=3, bias_reviewer=True
+[2026-10-29T16:01:58] [ParserAgent] parsed C001: 6 skills, 5.0y, Bachelors
+[2026-10-29T16:01:58] [ParserAgent] parsed C002: 3 skills, 2.0y, Masters
+[2026-10-29T16:01:58] [ParserAgent] parsed C003: 6 skills, 7.0y, PhD
+[2026-10-29T16:01:58] [ParserAgent] parsed C004: 2 skills, 0.0y, Bachelors
+[2026-10-29T16:01:58] [ParserAgent] parsed C005: 2 skills, 3.0y, Bachelors
+[2026-10-29T16:01:58] [MatcherAgent] C001 matched 5/5 named reqs -> score 1.0
+[2026-10-29T16:01:58] [MatcherAgent] C002 matched 2/5 named reqs -> score 0.54
+[2026-10-29T16:01:58] [MatcherAgent] C003 matched 4/5 named reqs -> score 0.88
+[2026-10-29T16:01:58] [MatcherAgent] C004 matched 2/5 named reqs -> score 0.34
+[2026-10-29T16:01:58] [MatcherAgent] C005 matched 1/5 named reqs -> score 0.52
+[2026-10-29T16:01:58] [RankerAgent] rank 1: C001 (score 1.0) - meets 5/5 requirements (aws, docker, python); 5.0y exp meets minimum
+[2026-10-29T16:01:58] [RankerAgent] rank 2: C003 (score 0.88) - meets 4/5 requirements (docker, python, rest); lacks aws; 7.0y exp meets minimum
+[2026-10-29T16:01:58] [RankerAgent] rank 3: C002 (score 0.54) - meets 2/5 requirements (python, sql); lacks aws, docker, rest; 2.0y exp below minimum
+[2026-10-29T16:01:58] [RankerAgent] rank 4: C005 (score 0.52) - meets 1/5 requirements (python); lacks aws, docker, rest; 3.0y exp meets minimum
+[2026-10-29T16:01:58] [RankerAgent] rank 5: C004 (score 0.34) - meets 2/5 requirements (python, sql); lacks aws, docker, rest; 0.0y exp below minimum
+[2026-10-29T16:01:58] [SchedulerAgent] C001 -> slot Mon 10:00
+[2026-10-29T16:01:58] [SchedulerAgent] C003 -> slot Wed 14:00
+[2026-10-29T16:01:58] [SchedulerAgent] C002 -> slot Tue 11:00
+[2026-10-29T16:01:58] [SchedulerAgent] C005 not shortlisted (rank 4)
+[2026-10-29T16:01:58] [SchedulerAgent] C004 not shortlisted (rank 5)
+[2026-10-29T16:01:58] [BiasReviewerAgent] ranking is score-consistent
+[2026-10-29T16:01:58] [BiasReviewerAgent] review complete: 0 bias flag(s)
+[2026-10-29T16:01:58] [PipelineCoordinator] pipeline complete
+[2026-10-29T17:24:05] [PipelineCoordinator] pipeline start: 5 candidates, shortlist=3, bias_reviewer=True
+[2026-10-29T17:24:05] [ParserAgent] parsed C001: 6 skills, 5.0y, Bachelors
+[2026-10-29T17:24:05] [ParserAgent] parsed C002: 3 skills, 2.0y, Masters
+[2026-10-29T17:24:05] [ParserAgent] parsed C003: 6 skills, 7.0y, PhD
+[2026-10-29T17:24:05] [ParserAgent] parsed C004: 2 skills, 0.0y, Bachelors
+[2026-10-29T17:24:05] [ParserAgent] parsed C005: 2 skills, 3.0y, Bachelors
+[2026-10-29T17:24:05] [MatcherAgent] C001 matched 5/5 named reqs -> score 1.0
+[2026-10-29T17:24:05] [MatcherAgent] C002 matched 2/5 named reqs -> score 0.54
+[2026-10-29T17:24:05] [MatcherAgent] C003 matched 4/5 named reqs -> score 0.88
+[2026-10-29T17:24:05] [MatcherAgent] C004 matched 2/5 named reqs -> score 0.34
+[2026-10-29T17:24:05] [MatcherAgent] C005 matched 1/5 named reqs -> score 0.52
+[2026-10-29T17:24:05] [RankerAgent] rank 1: C001 (score 1.0) - meets 5/5 requirements (aws, docker, python); 5.0y exp meets minimum
+[2026-10-29T17:24:05] [RankerAgent] rank 2: C003 (score 0.88) - meets 4/5 requirements (docker, python, rest); lacks aws; 7.0y exp meets minimum
+[2026-10-29T17:24:05] [RankerAgent] rank 3: C002 (score 0.54) - meets 2/5 requirements (python, sql); lacks aws, docker, rest; 2.0y exp below minimum
+[2026-10-29T17:24:05] [RankerAgent] rank 4: C005 (score 0.52) - meets 1/5 requirements (python); lacks aws, docker, rest; 3.0y exp meets minimum
+[2026-10-29T17:24:05] [RankerAgent] rank 5: C004 (score 0.34) - meets 2/5 requirements (python, sql); lacks aws, docker, rest; 0.0y exp below minimum
+[2026-10-29T17:24:05] [SchedulerAgent] C001 -> slot Mon 10:00
+[2026-10-29T17:24:05] [SchedulerAgent] C003 -> slot Wed 14:00
+[2026-10-29T17:24:05] [SchedulerAgent] C002 -> slot Tue 11:00
+[2026-10-29T17:24:05] [SchedulerAgent] C005 not shortlisted (rank 4)
+[2026-10-29T17:24:05] [SchedulerAgent] C004 not shortlisted (rank 5)
+[2026-10-29T17:24:05] [BiasReviewerAgent] ranking is score-consistent
+[2026-10-29T17:24:05] [BiasReviewerAgent] review complete: 0 bias flag(s)
+[2026-10-29T17:24:05] [PipelineCoordinator] pipeline complete
